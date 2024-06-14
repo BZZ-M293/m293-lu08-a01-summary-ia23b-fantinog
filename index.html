@@ -1,21 +1,140 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Zusammenfassung Modul 293</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zusammenfassung der Learningunits - Modul 293</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
 
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    
-  </header>
-  <nav>
-    
-  </nav>
-  <h1>Zusammenfassung Modul 293</h1>
-
-  <footer>
-    
-  </footer>
+<nav>
+    <a href="#lu1">Learningunit 1</a>
+    <a href="#lu2">Learningunit 2</a>
+    <a href="#lu3">Learningunit 3</a>
+    <a href="#lu4">Learningunit 4</a>
+    <a href="#lu5">Learningunit 5</a>
+    <a href="#lu6">Learningunit 6</a>
+    <a href="#lu7">Learningunit 7</a>
+    <a href="#lu8">Learningunit 8</a>
+</nav>
+<div class="container">
+    <section id="lu1">
+        <h2>Learningunit 1</h2>
+        <p>Inhalt der ersten Learningunit...</p>
+        Hello World
+    </section>
+    <section id="lu2">
+        <h2>Learningunit 2</h2>
+        <p>Inhalt der zweiten Learningunit...</p>
+        Inhalt strukturieren
+    </section>
+    <section id="lu3">
+        <h2>Learningunit 3</h2>
+        <p>Inhalt der dritten Learningunit...</p>
+        Blöcke und Inhalte
+    </section>
+    <section id="lu4">
+        <h2>Learningunit 4</h2>
+        <p>Inhalt der vierten Learningunit...</p>
+        Codingstyle
+    </section>
+    <section id="lu5">
+        <h2>Learningunit 5</h2>
+        <p>Inhalt der fünften Learningunit...</p>
+        5: HTTP und Adressen
+    </section>
+    <section id="lu6">
+        <h2>Learningunit 6</h2>
+        <p>Inhalt der sechsten Learningunit...</p>
+        <form action='./index.php' method='post'>
+            <label for='email'>Email</label>
+            <input id='email' name='email' type='text'/>
+            <button type='submit'>Absenden</button>
+        </form>
+    </section>
+    <section id="lu7">
+        <h2>Learningunit 7</h2>
+        <p>Inhalt der siebten Learningunit...</p>
+        <form>
+            <label>Vorname
+                <select name="Namen" size="6">
+                    <optgroup label="Namen mit A">
+                        <option label="Anna">Anna</option>
+                        <option label="Achim">Achim</option>
+                        <option label="August">August</option>
+                    </optgroup>
+                    <optgroup label="Namen mit B">
+                        <option label="Berta">Berta</option>
+                        <option label="Barbara">Barbara</option>
+                        <option label="Bernhard">Bernhard</option>
+                    </optgroup>
+                    <optgroup label="Namen mit C">
+                        <option label="Caesar">Caesar</option>
+                        <option label="Christiane">Christiane</option>
+                        <option label="Christian">Christian</option>
+                    </optgroup>
+                </select>
+            </label>
+        </form>
+        <form action="#">
+            <p>
+                <label> Vogelart
+                    <input type="search" list="Voegel"/>
+                    <datalist id="Voegel">
+                        <option value="Amsel">
+                        <option value="Buntspecht">
+                        <option value="Drossel">
+                        <option value="Eisvogel">
+                        <option value="Fink">
+                        <option value="Graugans">
+                        <option value="Meise">
+                        <option value="Spatz">
+                        <option value="Specht">
+                    </datalist>
+                </label>
+                <button>finden!</button>
+            </p>
+        </form>
+    </section>
+    <section id="lu8">
+        <h2>Learningunit 8</h2>
+        <p>Inhalt der achten Learningunit...</p>
+        Seitennavigation
+    </section>
+</div>
 </body>
 </html>
